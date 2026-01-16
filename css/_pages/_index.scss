@@ -58,13 +58,19 @@ body {
   }
 
   main {
+    //? Définition globale du style des cartes pour toute la page
     .encarts {
       display: flex;
-      padding-bottom: 2rem;
+      padding-bottom: 2.5rem;
+      justify-content: center;
+      gap: 1.3rem;
 
       figure {
         width: 333px;
         display: flex;
+        margin: 0;
+        margin-top: 1rem;
+       
         flex-direction: column;
         background-color: $main-white;
 
@@ -136,6 +142,7 @@ body {
 
     .promotion-encarts {
       background-color: $section-background-color;
+      
     }
 
     .on-disneyplus {
@@ -235,8 +242,12 @@ body {
     
       .films {
         display: flex;
+        justify-content: center;
+        gap: 1.3rem; 
+        
         figure {
           width: 259.2px;
+          margin: 0;
 
           h2 {
             font-size: 18px;
